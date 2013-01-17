@@ -1,0 +1,17 @@
+*Nueva AVM y nuevo Render*
+
+Los cambios en ActionScript son importantes. En general, puede decirse que el reproductor de Flash, el Flash Player, consta de un motor que interpreta al ActionScript (ActionScript Virtual Machine o AVM) y de otro que lo hace con los objetos en la pantalla (Render). Ambos elementos han cambiado, y si a esto se le añade el hecho de que hay un nuevo modelo de eventos.
+
+Debido a que la forma de desarrollar (y de pensar) en Flash cambia constantemente, es un problema "enseñar" este tipo de lenguaje. En este libro se ha decidido iniciar con la explicación de la nueva estructura del lenguaje (programación orientada a objetos) para posteriormente abordar la nueva manera de reinterpretar los objetos.
+
+Antes de iniciar con el tema se hará un breve repaso de la historia de ActionScript.
+
+ActionScript 0: La patineta. Aparece con Flash 4. Era un conjunto relativamente reducido de comandos que se manejaban con listas y parámetros. Resultó una maravilla en sus tiempos. Los usuarios "empujaron" al límite estos comandos.
+
+ActionScript 1: Un auto compacto. Apareció en Flash 5. Compatible con el estándar ECMA 264. En comparación con el lenguaje anterior, se veía como un enorme avance (lo fue). Los usuarios "empujaron" al límite este lenguaje.
+
+ActionScript 2: Un auto deportivo. En esta versión ya se contaba con herramientas más sólidas de programación orientadas a objetos, además de que el lenguaje mismo fue reescrito para hacerlo más rápido y potente. Nuevamente los usuarios "empujaron" al límite este lenguaje.
+
+ActionScript 3: Un potente tráiler. Adobe entrega ahora un lenguaje completamente orientado a objetos, listo para soportar toda especie de carga, hacer largos recorridos y, bajo ciertos casos, mucho más rápido que el anterior. La pregunta es: ¿cuánto tiempo tardarán los usuarios en llevar al límite este lenguaje?
+
+ActionScript más allá de Flash. Si bien es cierto que ActionScript inició en el lejano Flash 4, ahora existen varios paquetes donde se puede programar con este lenguaje: Flex, Flash Lite y Air. ActionScript ha salido de su caja para convertirse en un estándar de desarrollo.
