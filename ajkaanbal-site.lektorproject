@@ -1,0 +1,5 @@
+[project]
+name = ajkaanbal-site
+
+[servers.ghpages]
+target = ghpages+https://ajkaanbal/ajkaanbal-site
