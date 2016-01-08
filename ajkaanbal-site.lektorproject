@@ -1,5 +1,0 @@
-[project]
-name = ajkaanbal-site
-
-[servers.ghpages]
-target = ghpages://ajkaanbal/ajkaanbal-site
