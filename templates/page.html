@@ -1,6 +1,10 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+<h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">
+        {{ this.title }}
+    </div>
+</h1>
+{{ this.body }}
 {% endblock %}

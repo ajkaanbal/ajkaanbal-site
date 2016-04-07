@@ -1,29 +1,28 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 <title>{% block title %}Welcome{% endblock %} — ajkaanbal-site</title>
 <body>
-  <header>
-    <h1>ajkaanbal-site</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+  <header class="wrapper header">
+    <div class="navigation"> <a href="{{ '/'|url }}" class="logo">ajkaanbal</a>
+      <ul class="menu">
         {% for href, title in [
           ['/blog', 'Blog'],
           ['/projects', 'Projects'],
           ['/about', 'About']
         ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
+          <li class="{% if this.is_child_of(href) %} active{% endif %} menu__entry">
+              <a href="{{ href|url }}">{{ title }}</a>
+          </li>
         {% endfor %}
       </ul>
-    </nav>
+    </div>
   </header>
-  <div class="page">
+  <div class="page wrapper">
     {% block body %}{% endblock %}
   </div>
-  <footer>
-    &copy; Copyright 2016 by Ricardo M. Vilchis.
-  </footer>
+  <footer class="wrapper">(╯ò_ó)╯┻┻</footer>
+
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
 </body>

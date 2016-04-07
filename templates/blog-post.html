@@ -1,6 +1,11 @@
 {% extends "layout.html" %}
 {% from "macros/blog.html" import render_blog_post %}
-{% block title %}{{ this.title }}{% endblock %}
+<h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">
+        {% block title %}{{ this.title }}{% endblock %}
+    </div>
+</h1>
+
 {% block body %}
   {{ render_blog_post(this) }}
 {% endblock %}
