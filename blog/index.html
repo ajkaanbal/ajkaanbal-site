@@ -1,45 +1,54 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../static/style.css">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 <title> — ajkaanbal-site</title>
 <body>
-  <header>
-    <h1>ajkaanbal-site</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../">Welcome</a></li>
+  <header class="wrapper header">
+    <div class="navigation"> <a href="../" class="logo">ajkaanbal</a>
+      <ul class="menu">
         
-          <li class="active"><a href="../blog/">Blog</a></li>
+          <li class=" active menu__entry">
+              <a href="../blog/">Blog</a>
+          </li>
         
-          <li><a href="../projects/">Projects</a></li>
+          <li class=" menu__entry">
+              <a href="../projects/">Projects</a>
+          </li>
         
-          <li><a href="../about/">About</a></li>
+          <li class=" menu__entry">
+              <a href="../about/">About</a>
+          </li>
         
       </ul>
-    </nav>
+    </div>
   </header>
-  <div class="page">
+  <div class="page wrapper">
     
   
     
-  <div class="blog-post">
-  
-    <h2><a href="../blog/first-post/">Hello Website</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      Ricardo M. Vilchis
-    
-    on 2016-01-08
-  </p>
-  <p>Hola mundo cruel  (╯ò_ó)╯┻┻</p>
+  <h1 class="page-title post-title">
+      <div class="page-title__text post-title__text">Hello Website</div>
+      <div class="page-title__subtitle post-title__subtitle"> </div>
+  </h1>
+  <div class="content">
+    <p>Hola mundo cruel  (╯ò_ó)╯┻┻</p>
 
+  </div>
+  <div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+      written by
+      
+      <strong>Ricardo M. Vilchis</strong>
+      
+      on <strong>2016-01-08</strong>
+    </div>
   </div>
 
   
 
-  
+  <!-- 
   <div class="pagination">
     
       <span class="disabled">&laquo; Previous</span>
@@ -49,10 +58,10 @@
       <span class="disabled">Next &raquo;</span>
     
   </div>
-
+ -->
 
   </div>
-  <footer>
-    &copy; Copyright 2016 by Ricardo M. Vilchis.
-  </footer>
+  <footer class="wrapper">(╯ò_ó)╯┻┻</footer>
+
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
 </body>
