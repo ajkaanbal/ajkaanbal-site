@@ -2,4 +2,4 @@
 name = ajkaanbal-site
 
 [servers.ghpages]
-target = ghpages+https://ajkaanbal/ajkaanbal.github.io
+target = ghpages+https://ajkaanbal/ajkaanbal.github.io?cname=ajkaanbal.me
